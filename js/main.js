@@ -6,7 +6,7 @@ function mostrarProducto() {
     productosLS.forEach((producto) => {
         box.innerHTML +=` <div class="col-md-3 mt-2 ">
             <div class="card d-flex align-items-center" style="width: 18rem; " ">
-                <img src="${"/img/" + producto.imagen}" height="200rem" width="90%"  alt="${producto.marca} ${producto.modelo}">
+                <img src="${"img/" + producto.imagen}" height="200rem" width="90%"  alt="${producto.marca} ${producto.modelo}">
                 <div class="card-body">
                     <h5 class="card-title">${producto.marca}</h5>
                     <p class="card-text">${producto.modelo} </p>
