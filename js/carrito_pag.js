@@ -5,7 +5,7 @@ function mostrarCarrito() {
         carritoLS.forEach((producto) => {
             (document.getElementById("prodCarrito")).innerHTML +=` <table class="table align-middle">
             <tr>
-                <td><img src="${"img/" + producto.imagen}" width="20%" alt="$(producto.modelo)"  ></td>
+                <td><img src="${"/img/" + producto.imagen}" width="20%" alt="$(producto.modelo)"  ></td>
                 <td>${producto.marca}</td>
                 <td>${producto.modelo}</td>
                 <td>$ ${producto.precio}</td>
